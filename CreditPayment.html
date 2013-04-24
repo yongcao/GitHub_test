@@ -1,0 +1,259 @@
+﻿<!doctype html>
+
+<!--<meta http-equiv="X-UA-Compatible" content="IE=edge" />-->
+<link href="bootstrap.css" rel="stylesheet" />
+<link href="bootstrap-responsive.css" rel="stylesheet" />
+<script src="jquery-1.9.1.js"></script>
+<script src="knockout-2.2.1.debug.js"></script>
+<div class="header-container">
+    <header>
+        <h3>Credit Adjustment</h3>
+    </header>
+</div>
+
+<div>
+    <br />
+    <form id="overlay_form" style="display: none">
+        <label>Add Note: </label>
+        <textarea id="notesArea" rows="4" style="width: 90%"></textarea><br />
+        <input type="button" value="OK" class="btn" id="OK" />
+        <a href="#" id="close" class="btn">Cancel</a>
+        <input id="notes" type="hidden" value="bbbb " />
+    </form>
+</div>
+
+<div style="width: 80%; padding-left: 20px;">
+    <form>
+        <table style="width: 100%; font-weight: bold;">
+            <tr>
+                <td>
+                    <label><b>Avaialble Credit Balance :</b> $126,000.00</label></td>
+                <td>&nbsp;</td>
+                <td>
+                    <button data-bind='click: save, enable: lists().length > 0' type='submit' class="btn">Apply Credit Payment </button>
+                </td>
+                <td>&nbsp;</td>
+                <td>
+                    <label><b>Total Amount To Be Appied:</b> $126,000.00</label></td>
+            </tr>
+        </table>
+
+        <p>There are <span data-bind='text: lists().length'>&nbsp;</span> open invoice(s) to be paid:</p>
+        <table data-bind='visible: lists().length > 0' class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th style="width: 250px;">Invoice</th>
+                    <th style="width: 250px;">Campaign</th>
+                    <th style="width: 90px;">Invoice Total</th>
+                    <th style="width: 90px;">Balance</th>
+                    <th style="width: 90px;">Balance (Inc. Sub Acct)</th>
+                    <th style="width: 90px;">Amount to Apply</th>
+                    <th style="width: 350px;">Note</th>
+                </tr>
+            </thead>
+            <tbody data-bind='foreach: pagedList'>
+                <tr>
+                    <td>
+                        <label data-bind='text: Invoice, uniqueName: true' />
+                    </td>
+                    <td>
+                        <label data-bind='text: Campaign, uniqueName: true' />
+                    </td>
+                    <td>
+                        <label data-bind='text: InvoiceTotal, uniqueName: true' />
+                    </td>
+                    <td>
+                        <label data-bind='text: Balance, uniqueName: true' />
+                    </td>
+                    <td>
+                        <label data-bind='text: BalanceSubAccount, uniqueName: true' />
+                    </td>
+                    <td>
+                        <input data-bind='value: AmountToApply, uniqueName: true' style="width: 88px;" /></td>
+                    <td>
+                        <!--                        <a href='#' data-bind='click: $root.edit' class="btn">Add Note</a>-->
+                        <input data-bind='value: Note, uniqueName: true' style="width: 350px;" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+
+    <div class="pagination">
+        <ul>
+            <li data-bind="css: { disabled: pageIndex() === 0 }"><a href="#" data-bind="click: previousPage">Previous</a></li>
+        </ul>
+        <ul data-bind="foreach: allPages">
+            <li data-bind="css: { active: $data.pageNumber === ($root.pageIndex() + 1) }"><a href="#" data-bind="text: $data.pageNumber, click: function() { $root.moveToPage($data.pageNumber-1); }"></a></li>
+        </ul>
+        <ul>
+            <li data-bind="css: { disabled: pageIndex() === maxPageIndex() }"><a href="#" data-bind="click: nextPage">Next</a></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var InvoiceModel = function (lists) {
+        var self = this;
+        self.lists = ko.observableArray(lists);
+        self.pageSize = ko.observable(10);
+        self.pageIndex = ko.observable(0);
+        self.selectedItem = ko.observable();
+        self.addInvoices = function () {
+            self.lists.push({
+                Invoice: "",
+                InvoiceTotal: ""
+            });
+        };
+        self.edit = function (item) {
+            popup(item.Id);
+            //alert(item.Id);
+            item.Note = prompt("Enter a note", "");
+            self.selectedItem(item);
+        };
+        self.addNotes = function (item) {
+            item.Note = $("#notesArea").val();
+        };
+
+        self.removeInvoice = function (list) {
+            self.lists.remove(list);
+        };
+
+        self.save = function (form) {
+            alert("Could now transmit to server: " + ko.utils.stringifyJson(self.lists));
+            $.ajax({
+                type: 'POST',
+                //url: 'http://yong-server:450/Yong/CreditAdjustment/SaveData',
+                url: '../CreditAdjustment/SaveData',
+                //data: ko.toJSON(this),
+                data: ko.utils.stringifyJson(self.lists),
+                contentType: "application/json",
+                success: function (result) {
+                    alert(result.message);
+                }
+            });
+
+        };
+
+        self.pagedList = ko.dependentObservable(function () {
+            var size = self.pageSize();
+            var start = self.pageIndex() * size;
+            return self.lists.slice(start, start + size);
+        });
+
+        self.maxPageIndex = ko.dependentObservable(function () {
+            return Math.ceil(self.lists().length / self.pageSize()) - 1;
+        });
+        self.previousPage = function () {
+            if (self.pageIndex() > 0) {
+                self.pageIndex(self.pageIndex() - 1);
+            }
+        };
+        self.nextPage = function () {
+            if (self.pageIndex() < self.maxPageIndex()) {
+                self.pageIndex(self.pageIndex() + 1);
+            }
+        };
+        self.allPages = ko.dependentObservable(function () {
+            var pages = [];
+            for (i = 0; i <= self.maxPageIndex() ; i++) {
+                pages.push({ pageNumber: (i + 1) });
+            }
+            return pages;
+        });
+        self.moveToPage = function (index) {
+            self.pageIndex(index);
+        };
+    };
+
+    var viewModel = new InvoiceModel([
+        { Id: "0", Invoice: "INV-01255-S1Q5F5", Campaign: "2012 Gernal United Way Processing", InvoiceTotal: "2,100.00", Balance: "1,000.00", BalanceSubAccount: "1,000.00", AmountToApply: "1,000.00", Note: "", },
+        { Id: "1", Invoice: "INV-01255-S1Q5F6", Campaign: "2012 United Way Processing", InvoiceTotal: "12,000.00", Balance: "5,000.00", BalanceSubAccount: "500.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "2", Invoice: "INV-01255-S1Q5F7", Campaign: "2011 United Way Processing", InvoiceTotal: "1,300.00", Balance: "6,000.00", BalanceSubAccount: "600.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "3", Invoice: "INV-01255-S1Q5F8", Campaign: "2011 Kroger United Way Processing", InvoiceTotal: "14,000.00", Balance: "7,000.00", BalanceSubAccount: "700.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "4", Invoice: "INV-01255-S1Q5F9", Campaign: "2011 Food Bank United Way Processing", InvoiceTotal: "15,000.00", Balance: "8,000.00", BalanceSubAccount: "5,000.00", AmountToApply: "6,000.00", Note: "", },
+        { Id: "5", Invoice: "INV-01255-S1Q5H1", Campaign: "2011 Winning United Way Processing", InvoiceTotal: "16,000.00", Balance: "9,000.00", BalanceSubAccount: "900.00", AmountToApply: "4,000.00", Note: "", },
+        { Id: "6", Invoice: "INV-01255-S1Q5H2", Campaign: "2011 Thanks-A-Thon United Way Processing", InvoiceTotal: "17,000.00", Balance: "10,000.00", BalanceSubAccount: "10,000.00", AmountToApply: "2,000.00", Note: "", },
+        { Id: "7", Invoice: "INV-01255-S1Q5H3", Campaign: "2011 Capital United Way Processing", InvoiceTotal: "18,000.00", Balance: "11,000.00", BalanceSubAccount: "560.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "8", Invoice: "INV-01255-S1Q5H4", Campaign: "2011 ePLedge United Way Processing", InvoiceTotal: "19,000.00", Balance: "12,000.00", BalanceSubAccount: "660.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "9", Invoice: "INV-01255-S1Q5H5", Campaign: "2011 National Bank United Way Processing", InvoiceTotal: "20,000.00", Balance: "13,000.00", BalanceSubAccount: "750.00", AmountToApply: "3,000.00", Note: "", },
+        { Id: "10", Invoice: "INV-01255-S1Q5H6", Campaign: "2011 Combined United Way Processing", InvoiceTotal: "21,000.00", Balance: "14,000.00", BalanceSubAccount: "990.00", AmountToApply: "12,000.00", Note: "", },
+        { Id: "11", Invoice: "INV-01255-S1Q5H7", Campaign: "2011 Federal Way Processing", InvoiceTotal: "22,000.00", Balance: "15,000.00", BalanceSubAccount: "326.00", AmountToApply: "5,000.00", Note: "", },
+        { Id: "12", Invoice: "INV-01255-S1Q5H8", Campaign: "2011 Local Way Processing", InvoiceTotal: "23,000.00", Balance: "16,000.00", BalanceSubAccount: "885.00", AmountToApply: "1,000.00", Note: "", },
+        { Id: "13", Invoice: "INV-01255-S1Q5H9", Campaign: "2011 Fith Third United Way Processing", InvoiceTotal: "24,000.00", Balance: "17,000.00", BalanceSubAccount: "563.00", AmountToApply: "1,5000.00", Note: "", },
+        { Id: "14", Invoice: "INV-01255-S1Q5K1", Campaign: "2011 P&G United Way Processing", InvoiceTotal: "25,000.00", Balance: "18,000.00", BalanceSubAccount: "563.00", AmountToApply: "2,500.00", Note: "", },
+
+    ]);
+    ko.applyBindings(viewModel);
+    function clientData(Id, Invoice, Campaign, InvoiceTotal, Balance, BalanceSubAccount, AmountToApply, Note) {
+        this.Id = Id;
+        this.Invoice = Invoice;
+        this.Campaign = Campaign;
+        this.InvoiceTotal = InvoiceTotal;
+        this.Balance = Balance;
+        this.BalanceSubAccount = BalanceSubAccount;
+        this.AmountToApply = AmountToApply;
+        this.Note = Note;
+    }
+
+    // Activate jQuery Validation
+    $("form").validate({ submitHandler: viewModel.save });
+
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        //open popup
+        $("#pop").click(function () {
+            $("#overlay_form").fadeIn(1000);
+            positionPopup();
+        });
+
+        //close popup
+        $("#close").click(function () {
+            $("#overlay_form").fadeOut(500);
+        });
+
+        $("#OK").click(function (item) {
+
+            function clientData(Id, Invoice, Campaign, InvoiceTotal, Balance, BalanceSubAccount, AmountToApply, Note) {
+                this.Id = Id;
+                this.Invoice = Invoice;
+                this.Campaign = Campaign;
+                this.InvoiceTotal = InvoiceTotal;
+                this.Balance = Balance;
+                this.BalanceSubAccount = BalanceSubAccount;
+                this.AmountToApply = AmountToApply;
+                this.Note = Note;
+            }
+
+            //viewModel.lists()[0].Note = "This is great";
+            $("#overlay_form").fadeOut(500);
+        });
+    });
+
+
+
+    //position the popup at the center of the page
+    function positionPopup() {
+        if (!$("#overlay_form").is(':visible')) {
+            return;
+        }
+        $("#overlay_form").css({
+            left: ($(window).width() - $('#overlay_form').width()) / 2,
+            top: ($(window).width() - $('#overlay_form').width()) / 7,
+            position: 'absolute'
+        });
+    }
+
+    function popup(note) {
+        //$("#notesArea").val(note);
+        $("#overlay_form").fadeIn(1000);
+        positionPopup();
+        //alert(note);
+    }
+
+    $(window).bind('resize', positionPopup);
+
+</script>
+</html>
