@@ -1,12 +1,7 @@
 //Check in from user one.
 
 Line 1
-<<<<<<< HEAD
 	added some code from user2 here
 Line 2
-=======
-
-
->>>>>>> 7f27ebfdc256b2bd1d9911cb05def4881bc6ca7b
 
 Line 3
