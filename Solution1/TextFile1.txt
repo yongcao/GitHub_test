@@ -1,3 +1,289 @@
 I just want to add something here.
 
 Hopefully it will work.
+
+
+(3) DETERMINATION OF REQUIRED CONTRIBUTIONS-
+
+(A) IN GENERAL- The Secretary shall include in the provisions under paragraph (1) the method for determining the amount each health insurance issuer and group health plan described in paragraph (1)(A) contributing to the reinsurance program under this section is required to contribute under such paragraph for each plan year beginning in the 36-month period beginning January 1, 2014. The contribution amount for any plan year may be based on the percentage of revenue of each issuer and the total costs of providing benefits to enrollees in self-insured plans or on a specified amount per enrollee and may be required to be paid in advance or periodically throughout the plan year.
+
+(B) SPECIFIC REQUIREMENTS- The method under this paragraph shall be designed so that--
+
+(i) the contribution amount for each issuer proportionally reflects each issuer’s fully insured commercial book of business for all major medical products and the total value of all fees charged by the issuer and the costs of coverage administered by the issuer as a third party administrator;
+
+(ii) the contribution amount can include an additional amount to fund the administrative expenses of the applicable reinsurance entity;
+
+(iii) the aggregate contribution amounts for all States shall, based on the best estimates of the NAIC and without regard to amounts described in clause (ii), equal $10,000,000,000 for plan years beginning in 2014, $6,000,000,000 for plan years beginning 2015, and $4,000,000,000 for plan years beginning in 2016; and
+
+(iv) in addition to the aggregate contribution amounts under clause (iii), each issuer’s contribution amount for any calendar year under clause (iii) reflects its proportionate share of an additional $2,000,000,000 for 2014, an additional $2,000,000,000 for 2015, and an additional $1,000,000,000 for 2016.
+
+Nothing in this subparagraph shall be construed to preclude a State from collecting additional amounts from issuers on a voluntary basis.
+
+(4) EXPENDITURE OF FUNDS- The provisions under paragraph (1) shall provide that--
+
+(A) the contribution amounts collected for any calendar year may be allocated and used in any of the three calendar years for which amounts are collected based on the reinsurance needs of a particular period or to reflect experience in a prior period; and
+
+(B) amounts remaining unexpended as of December, 2016, may be used to make payments under any reinsurance program of a State in the individual market in effect in the 2-year period beginning on January 1, 2017.
+
+Notwithstanding the preceding sentence, any contribution amounts described in paragraph (3)(B)(iv) shall be deposited into the general fund of the Treasury of the United States and may not be used for the program established under this section.
+
+(c) Applicable Reinsurance Entity- For purposes of this section--
+
+(1) IN GENERAL- The term ‘applicable reinsurance entity’ means a not-for-profit organization--
+
+(A) the purpose of which is to help stabilize premiums for coverage in the individual and small group markets in a State during the first 3 years of operation of an Exchange for such markets within the State when the risk of adverse selection related to new rating rules and market changes is greatest; and
+
+(B) the duties of which shall be to carry out the reinsurance program under this section by coordinating the funding and operation of the risk-spreading mechanisms designed to implement the reinsurance program.
+
+(2) STATE DISCRETION- A State may have more than 1 applicable reinsurance entity to carry out the reinsurance program under this section within the State and 2 or more States may enter into agreements to provide for an applicable reinsurance entity to carry out such program in all such States.
+
+(3) ENTITIES ARE TAX-EXEMPT- An applicable reinsurance entity established under this section shall be exempt from taxation under chapter 1 of the Internal Revenue Code of 1986. The preceding sentence shall not apply to the tax imposed by section 511 such Code (relating to tax on unrelated business taxable income of an exempt organization).
+
+(d) Coordination With State High-risk Pools- The State shall eliminate or modify any State high-risk pool to the extent necessary to carry out the reinsurance program established under this section. The State may coordinate the State high-risk pool with such program to the extent not inconsistent with the provisions of this section.
+
+SEC. 1342. ESTABLISHMENT OF RISK CORRIDORS FOR PLANS IN INDIVIDUAL AND SMALL GROUP MARKETS.
+
+(a) In General- The Secretary shall establish and administer a program of risk corridors for calendar years 2014, 2015, and 2016 under which a qualified health plan offered in the individual or small group market shall participate in a payment adjustment system based on the ratio of the allowable costs of the plan to the plan’s aggregate premiums. Such program shall be based on the program for regional participating provider organizations under part D of title XVIII of the Social Security Act.
+
+(b) Payment Methodology-
+
+(1) PAYMENTS OUT- The Secretary shall provide under the program established under subsection (a) that if--
+
+(A) a participating plan’s allowable costs for any plan year are more than 103 percent but not more than 108 percent of the target amount, the Secretary shall pay to the plan an amount equal to 50 percent of the target amount in excess of 103 percent of the target amount; and
+
+(B) a participating plan’s allowable costs for any plan year are more than 108 percent of the target amount, the Secretary shall pay to the plan an amount equal to the sum of 2.5 percent of the target amount plus 80 percent of allowable costs in excess of 108 percent of the target amount.
+
+(2) PAYMENTS IN- The Secretary shall provide under the program established under subsection (a) that if--
+
+(A) a participating plan’s allowable costs for any plan year are less than 97 percent but not less than 92 percent of the target amount, the plan shall pay to the Secretary an amount equal to 50 percent of the excess of 97 percent of the target amount over the allowable costs; and
+
+(B) a participating plan’s allowable costs for any plan year are less than 92 percent of the target amount, the plan shall pay to the Secretary an amount equal to the sum of 2.5 percent of the target amount plus 80 percent of the excess of 92 percent of the target amount over the allowable costs.
+
+(c) Definitions- In this section:
+
+(1) ALLOWABLE COSTS-
+
+(A) IN GENERAL- The amount of allowable costs of a plan for any year is an amount equal to the total costs (other than administrative costs) of the plan in providing benefits covered by the plan.
+
+(B) REDUCTION FOR RISK ADJUSTMENT AND REINSURANCE PAYMENTS- Allowable costs shall reduced by any risk adjustment and reinsurance payments received under section 1341 and 1343.
+
+(2) TARGET AMOUNT- The target amount of a plan for any year is an amount equal to the total premiums (including any premium subsidies under any governmental program), reduced by the administrative costs of the plan.
+
+SEC. 1343. RISK ADJUSTMENT.
+
+(a) In General-
+
+(1) LOW ACTUARIAL RISK PLANS- Using the criteria and methods developed under subsection (b), each State shall assess a charge on health plans and health insurance issuers (with respect to health insurance coverage) described in subsection (c) if the actuarial risk of the enrollees of such plans or coverage for a year is less than the average actuarial risk of all enrollees in all plans or coverage in such State for such year that are not self-insured group health plans (which are subject to the provisions of the Employee Retirement Income Security Act of 1974).
+
+(2) HIGH ACTUARIAL RISK PLANS- Using the criteria and methods developed under subsection (b), each State shall provide a payment to health plans and health insurance issuers (with respect to health insurance coverage) described in subsection (c) if the actuarial risk of the enrollees of such plans or coverage for a year is greater than the average actuarial risk of all enrollees in all plans and coverage in such State for such year that are not self-insured group health plans (which are subject to the provisions of the Employee Retirement Income Security Act of 1974).
+
+(b) Criteria and Methods- The Secretary, in consultation with States, shall establish criteria and methods to be used in carrying out the risk adjustment activities under this section. The Secretary may utilize criteria and methods similar to the criteria and methods utilized under part C or D of title XVIII of the Social Security Act. Such criteria and methods shall be included in the standards and requirements the Secretary prescribes under section 1321.
+
+(c) Scope- A health plan or a health insurance issuer is described in this subsection if such health plan or health insurance issuer provides coverage in the individual or small group market within the State. This subsection shall not apply to a grandfathered health plan or the issuer of a grandfathered health plan with respect to that plan.
+
+Subtitle E--Affordable Coverage Choices for All Americans
+
+
+PART I--PREMIUM TAX CREDITS AND COST-SHARING REDUCTIONS
+Subpart A--Premium Tax Credits and Cost-sharing Reductions
+SEC. 1401. REFUNDABLE TAX CREDIT PROVIDING PREMIUM ASSISTANCE FOR COVERAGE UNDER A QUALIFIED HEALTH PLAN.
+
+(a) In General- Subpart C of part IV of subchapter A of chapter 1 of the Internal Revenue Code of 1986 (relating to refundable credits) is amended by inserting after section 36A the following new section:
+
+‘SEC. 36B. REFUNDABLE CREDIT FOR COVERAGE UNDER A QUALIFIED HEALTH PLAN.
+
+‘(a) In General- In the case of an applicable taxpayer, there shall be allowed as a credit against the tax imposed by this subtitle for any taxable year an amount equal to the premium assistance credit amount of the taxpayer for the taxable year.
+
+‘(b) Premium Assistance Credit Amount- For purposes of this section--
+
+‘(1) IN GENERAL- The term ‘premium assistance credit amount’ means, with respect to any taxable year, the sum of the premium assistance amounts determined under paragraph (2) with respect to all coverage months of the taxpayer occurring during the taxable year.
+
+‘(2) PREMIUM ASSISTANCE AMOUNT- The premium assistance amount determined under this subsection with respect to any coverage month is the amount equal to the lesser of--
+
+‘(A) the monthly premiums for such month for 1 or more qualified health plans offered in the individual market within a State which cover the taxpayer, the taxpayer’s spouse, or any dependent (as defined in section 152) of the taxpayer and which were enrolled in through an Exchange established by the State under 1311 of the Patient Protection and Affordable Care Act, or
+
+‘(B) the excess (if any) of--
+
+‘(i) the adjusted monthly premium for such month for the applicable second lowest cost silver plan with respect to the taxpayer, over
+
+‘(ii) an amount equal to 1/12 of the product of the applicable percentage and the taxpayer’s household income for the taxable year.
+
+‘(3) OTHER TERMS AND RULES RELATING TO PREMIUM ASSISTANCE AMOUNTS- For purposes of paragraph (2)--
+
+‘(A) APPLICABLE PERCENTAGE-
+
+‘(i) IN GENERAL- Except as provided in clause (ii), the applicable percentage with respect to any taxpayer for any taxable year is equal to 2.8 percent, increased by the number of percentage points (not greater than 7) which bears the same ratio to 7 percentage points as--
+
+‘(I) the taxpayer’s household income for the taxable year in excess of 100 percent of the poverty line for a family of the size involved, bears to
+
+‘(II) an amount equal to 200 percent of the poverty line for a family of the size involved.
+
+‘(ii) SPECIAL RULE FOR TAXPAYERS UNDER 133 PERCENT OF POVERTY LINE- If a taxpayer’s household income for the taxable year is in excess of 100 percent, but not more than 133 percent, of the poverty line for a family of the size involved, the taxpayer’s applicable percentage shall be 2 percent.
+
+‘(iii) INDEXING- In the case of taxable years beginning in any calendar year after 2014, the Secretary shall adjust the initial and final applicable percentages under clause (i), and the 2 percent under clause (ii), for the calendar year to reflect the excess of the rate of premium growth between the preceding calendar year and 2013 over the rate of income growth for such period.
+
+‘(B) APPLICABLE SECOND LOWEST COST SILVER PLAN- The applicable second lowest cost silver plan with respect to any applicable taxpayer is the second lowest cost silver plan of the individual market in the rating area in which the taxpayer resides which--
+
+‘(i) is offered through the same Exchange through which the qualified health plans taken into account under paragraph (2)(A) were offered, and
+
+‘(ii) provides--
+
+‘(I) self-only coverage in the case of an applicable taxpayer--
+
+‘(aa) whose tax for the taxable year is determined under section 1(c) (relating to unmarried individuals other than surviving spouses and heads of households) and who is not allowed a deduction under section 151 for the taxable year with respect to a dependent, or
+
+‘(bb) who is not described in item (aa) but who purchases only self-only coverage, and
+
+‘(II) family coverage in the case of any other applicable taxpayer.
+
+If a taxpayer files a joint return and no credit is allowed under this section with respect to 1 of the spouses by reason of subsection (e), the taxpayer shall be treated as described in clause (ii)(I) unless a deduction is allowed under section 151 for the taxable year with respect to a dependent other than either spouse and subsection (e) does not apply to the dependent.
+
+‘(C) ADJUSTED MONTHLY PREMIUM- The adjusted monthly premium for an applicable second lowest cost silver plan is the monthly premium which would have been charged (for the rating area with respect to which the premiums under paragraph (2)(A) were determined) for the plan if each individual covered under a qualified health plan taken into account under paragraph (2)(A) were covered by such silver plan and the premium was adjusted only for the age of each such individual in the manner allowed under section 2701 of the Public Health Service Act. In the case of a State participating in the wellness discount demonstration project under section 2705(d) of the Public Health Service Act, the adjusted monthly premium shall be determined without regard to any premium discount or rebate under such project.
+
+‘(D) ADDITIONAL BENEFITS- If--
+
+‘(i) a qualified health plan under section 1302(b)(5) of the Patient Protection and Affordable Care Act offers benefits in addition to the essential health benefits required to be provided by the plan, or
+
+‘(ii) a State requires a qualified health plan under section 1311(d)(3)(B) of such Act to cover benefits in addition to the essential health benefits required to be provided by the plan,
+
+the portion of the premium for the plan properly allocable (under rules prescribed by the Secretary of Health and Human Services) to such additional benefits shall not be taken into account in determining either the monthly premium or the adjusted monthly premium under paragraph (2).
+
+‘(E) SPECIAL RULE FOR PEDIATRIC DENTAL COVERAGE- For purposes of determining the amount of any monthly premium, if an individual enrolls in both a qualified health plan and a plan described in section 1311(d)(2)(B)(ii)(I) of the Patient Protection and Affordable Care Act for any plan year, the portion of the premium for the plan described in such section that (under regulations prescribed by the Secretary) is properly allocable to pediatric dental benefits which are included in the essential health benefits required to be provided by a qualified health plan under section 1302(b)(1)(J) of such Act shall be treated as a premium payable for a qualified health plan.
+
+‘(c) Definition and Rules Relating to Applicable Taxpayers, Coverage Months, and Qualified Health Plan- For purposes of this section--
+
+‘(1) APPLICABLE TAXPAYER-
+
+‘(A) IN GENERAL- The term ‘applicable taxpayer’ means, with respect to any taxable year, a taxpayer whose household income for the taxable year exceeds 100 percent but does not exceed 400 percent of an amount equal to the poverty line for a family of the size involved.
+
+‘(B) SPECIAL RULE FOR CERTAIN INDIVIDUALS LAWFULLY PRESENT IN THE UNITED STATES- If--
+
+‘(i) a taxpayer has a household income which is not greater than 100 percent of an amount equal to the poverty line for a family of the size involved, and
+
+‘(ii) the taxpayer is an alien lawfully present in the United States, but is not eligible for the medicaid program under title XIX of the Social Security Act by reason of such alien status,
+
+the taxpayer shall, for purposes of the credit under this section, be treated as an applicable taxpayer with a household income which is equal to 100 percent of the poverty line for a family of the size involved.
+
+‘(C) MARRIED COUPLES MUST FILE JOINT RETURN- If the taxpayer is married (within the meaning of section 7703) at the close of the taxable year, the taxpayer shall be treated as an applicable taxpayer only if the taxpayer and the taxpayer’s spouse file a joint return for the taxable year.
+
+‘(D) DENIAL OF CREDIT TO DEPENDENTS- No credit shall be allowed under this section to any individual with respect to whom a deduction under section 151 is allowable to another taxpayer for a taxable year beginning in the calendar year in which such individual’s taxable year begins.
+
+‘(2) COVERAGE MONTH- For purposes of this subsection--
+
+‘(A) IN GENERAL- The term ‘coverage month’ means, with respect to an applicable taxpayer, any month if--
+
+‘(i) as of the first day of such month the taxpayer, the taxpayer’s spouse, or any dependent of the taxpayer is covered by a qualified health plan described in subsection (b)(2)(A) that was enrolled in through an Exchange established by the State under section 1311 of the Patient Protection and Affordable Care Act, and
+
+‘(ii) the premium for coverage under such plan for such month is paid by the taxpayer (or through advance payment of the credit under subsection (a) under section 1412 of the Patient Protection and Affordable Care Act).
+
+‘(B) EXCEPTION FOR MINIMUM ESSENTIAL COVERAGE-
+
+‘(i) IN GENERAL- The term ‘coverage month’ shall not include any month with respect to an individual if for such month the individual is eligible for minimum essential coverage other than eligibility for coverage described in section 5000A(f)(1)(C) (relating to coverage in the individual market).
+
+‘(ii) MINIMUM ESSENTIAL COVERAGE- The term ‘minimum essential coverage’ has the meaning given such term by section 5000A(f).
+
+‘(C) SPECIAL RULE FOR EMPLOYER-SPONSORED MINIMUM ESSENTIAL COVERAGE- For purposes of subparagraph (B)--
+
+‘(i) COVERAGE MUST BE AFFORDABLE- Except as provided in clause (iii), an employee shall not be treated as eligible for minimum essential coverage if such coverage--
+
+‘(I) consists of an eligible employer-sponsored plan (as defined in section 5000A(f)(2)), and
+
+‘(II) the employee’s required contribution (within the meaning of section 5000A(e)(1)(B)) with respect to the plan exceeds 9.8 percent of the applicable taxpayer’s household income.
+
+This clause shall also apply to an individual who is eligible to enroll in the plan by reason of a relationship the individual bears to the employee.
+
+‘(ii) COVERAGE MUST PROVIDE MINIMUM VALUE- Except as provided in clause (iii), an employee shall not be treated as eligible for minimum essential coverage if such coverage consists of an eligible employer-sponsored plan (as defined in section 5000A(f)(2)) and the plan’s share of the total allowed costs of benefits provided under the plan is less than 60 percent of such costs.
+
+‘(iii) EMPLOYEE OR FAMILY MUST NOT BE COVERED UNDER EMPLOYER PLAN- Clauses (i) and (ii) shall not apply if the employee (or any individual described in the last sentence of clause (i)) is covered under the eligible employer-sponsored plan or the grandfathered health plan.
+
+‘(iv) INDEXING- In the case of plan years beginning in any calendar year after 2014, the Secretary shall adjust the 9.8 percent under clause (i)(II) in the same manner as the percentages are adjusted under subsection (b)(3)(A)(ii).
+
+‘(3) DEFINITIONS AND OTHER RULES-
+
+‘(A) QUALIFIED HEALTH PLAN- The term ‘qualified health plan’ has the meaning given such term by section 1301(a) of the Patient Protection and Affordable Care Act, except that such term shall not include a qualified health plan which is a catastrophic plan described in section 1302(e) of such Act.
+
+‘(B) GRANDFATHERED HEALTH PLAN- The term ‘grandfathered health plan’ has the meaning given such term by section 1251 of the Patient Protection and Affordable Care Act.
+
+‘(d) Terms Relating to Income and Families- For purposes of this section--
+
+‘(1) FAMILY SIZE- The family size involved with respect to any taxpayer shall be equal to the number of individuals for whom the taxpayer is allowed a deduction under section 151 (relating to allowance of deduction for personal exemptions) for the taxable year.
+
+‘(2) HOUSEHOLD INCOME-
+
+‘(A) HOUSEHOLD INCOME- The term ‘household income’ means, with respect to any taxpayer, an amount equal to the sum of--
+
+‘(i) the modified gross income of the taxpayer, plus
+
+‘(ii) the aggregate modified gross incomes of all other individuals who--
+
+‘(I) were taken into account in determining the taxpayer’s family size under paragraph (1), and
+
+‘(II) were required to file a return of tax imposed by section 1 for the taxable year.
+
+‘(B) MODIFIED GROSS INCOME- The term ‘modified gross income’ means gross income--
+
+‘(i) decreased by the amount of any deduction allowable under paragraph (1), (3), (4), or (10) of section 62(a),
+
+‘(ii) increased by the amount of interest received or accrued during the taxable year which is exempt from tax imposed by this chapter, and
+
+‘(iii) determined without regard to sections 911, 931, and 933.
+
+‘(3) POVERTY LINE-
+
+‘(A) IN GENERAL- The term ‘poverty line’ has the meaning given that term in section 2110(c)(5) of the Social Security Act (42 U.S.C. 1397jj(c)(5)).
+
+‘(B) POVERTY LINE USED- In the case of any qualified health plan offered through an Exchange for coverage during a taxable year beginning in a calendar year, the poverty line used shall be the most recently published poverty line as of the 1st day of the regular enrollment period for coverage during such calendar year.
+
+‘(e) Rules for Individuals Not Lawfully Present-
+
+‘(1) IN GENERAL- If 1 or more individuals for whom a taxpayer is allowed a deduction under section 151 (relating to allowance of deduction for personal exemptions) for the taxable year (including the taxpayer or his spouse) are individuals who are not lawfully present--
+
+‘(A) the aggregate amount of premiums otherwise taken into account under clauses (i) and (ii) of subsection (b)(2)(A) shall be reduced by the portion (if any) of such premiums which is attributable to such individuals, and
+
+‘(B) for purposes of applying this section, the determination as to what percentage a taxpayer’s household income bears to the poverty level for a family of the size involved shall be made under one of the following methods:
+
+‘(i) A method under which--
+
+‘(I) the taxpayer’s family size is determined by not taking such individuals into account, and
+
+‘(II) the taxpayer’s household income is equal to the product of the taxpayer’s household income (determined without regard to this subsection) and a fraction--
+
+‘(aa) the numerator of which is the poverty line for the taxpayer’s family size determined after application of subclause (I), and
+
+‘(bb) the denominator of which is the poverty line for the taxpayer’s family size determined without regard to subclause (I).
+
+‘(ii) A comparable method reaching the same result as the method under clause (i).
+
+‘(2) LAWFULLY PRESENT- For purposes of this section, an individual shall be treated as lawfully present only if the individual is, and is reasonably expected to be for the entire period of enrollment for which the credit under this section is being claimed, a citizen or national of the United States or an alien lawfully present in the United States.
+
+‘(3) SECRETARIAL AUTHORITY- The Secretary of Health and Human Services, in consultation with the Secretary, shall prescribe rules setting forth the methods by which calculations of family size and household income are made for purposes of this subsection. Such rules shall be designed to ensure that the least burden is placed on individuals enrolling in qualified health plans through an Exchange and taxpayers eligible for the credit allowable under this section.
+
+‘(f) Reconciliation of Credit and Advance Credit-
+
+‘(1) IN GENERAL- The amount of the credit allowed under this section for any taxable year shall be reduced (but not below zero) by the amount of any advance payment of such credit under section 1412 of the Patient Protection and Affordable Care Act.
+
+‘(2) EXCESS ADVANCE PAYMENTS-
+
+‘(A) IN GENERAL- If the advance payments to a taxpayer under section 1412 of the Patient Protection and Affordable Care Act for a taxable year exceed the credit allowed by this section (determined without regard to paragraph (1)), the tax imposed by this chapter for the taxable year shall be increased by the amount of such excess.
+
+‘(B) LIMITATION ON INCREASE WHERE INCOME LESS THAN 400 PERCENT OF POVERTY LINE-
+
+‘(i) IN GENERAL- In the case of an applicable taxpayer whose household income is less than 400 percent of the poverty line for the size of the family involved for the taxable year, the amount of the increase under subparagraph (A) shall in no event exceed $400 ($250 in the case of a taxpayer whose tax is determined under section 1(c) for the taxable year).
+
+‘(ii) INDEXING OF AMOUNT- In the case of any calendar year beginning after 2014, each of the dollar amounts under clause (i) shall be increased by an amount equal to--
+
+‘(I) such dollar amount, multiplied by
+
+‘(II) the cost-of-living adjustment determined under section 1(f)(3) for the calendar year, determined by substituting ‘calendar year 2013’ for ‘calendar year 1992’ in subparagraph (B) thereof.
+
+If the amount of any increase under clause (i) is not a multiple of $50, such increase shall be rounded to the next lowest multiple of $50.
+
+‘(g) Regulations- The Secretary shall prescribe such regulations as may be necessary to carry out the provisions of this section, including regulations which provide for--
+
+‘(1) the coordination of the credit allowed under this section with the program for advance payment of the credit under section 1412 of the Patient Protection and Affordable Care Act, and
+
+‘(2) the application of subsection (f) where the filing status of the taxpayer for a taxable year is different from such status used for determining the advance payment of the credit.’.
+
+(b) Disallowance of Deduction- Section 280C of the Internal Revenue Code of 1986 is amended by adding at the end the following new subsection:
+
+‘(g) Credit for Health Insurance Premiums- No deduction shall be allowed for the portion of the premiums paid by the taxpayer for coverage of 1 or more individuals under a qualified health plan which is equal to the amount of the credit determined for the taxable year under section 36B(a) with respect to such premiums.’.
