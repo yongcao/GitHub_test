@@ -7,3 +7,5 @@ Added another line for user1 -- modified the same line to see if there is confli
 Added Line 2 for user1
 
 Added line 3
+
+Added Line 4 from user2
