@@ -1,12 +1,2 @@
 Added line 1 for user 1 from user 2
 
-Commit from user 2
-
-Commit from user 1
-
-Commit from user 2 again
-
-
-Line 7 user 1
-
-line 8 user 1
