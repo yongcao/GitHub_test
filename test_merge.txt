@@ -5,3 +5,5 @@ Commit from user 2
 Commit from user 1
 
 Commit from user 2 again
+
+commit new line user 2
